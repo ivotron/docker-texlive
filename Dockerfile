@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM ubuntu:xenial
 MAINTAINER Ivo Jimenez <ivo.jimenez@gmail.com>
 
 RUN apt-get -yq update && \
